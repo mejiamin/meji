@@ -1,0 +1,70 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0;
+  padding: 0;
+  background-color: #999;
+}
+
+.container {
+  max-width: 1920px;
+  margin-inline: auto;
+  padding-inline: 70px;
+  border: 1px solid red;
+}
+
+.main-nav {
+  position: relative;
+  height: 42px;
+  overflow: hidden;
+  background: rgb(200, 200, 200);
+  -webkit-box-shadow: 0 5px 10px #333;
+          box-shadow: 0 5px 10px #333;
+}
+
+.main-nav .logo {
+  position: absolute;
+  top: 0;
+  -webkit-animation: translateX 15s alternate forwards ease-in-out infinite;
+          animation: translateX 15s alternate forwards ease-in-out infinite;
+}
+
+@-webkit-keyframes translateX {
+  from {
+    left: 0;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  to {
+    left: 100%;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+}
+
+@keyframes translateX {
+  from {
+    left: 0;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  to {
+    left: 100%;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+}
