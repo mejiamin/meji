@@ -1,0 +1,43 @@
+@use '../abstracts/' as *;
+
+.target {
+    height: 100vh;
+    // background: $bgHeadtoTop;
+    overflow: hidden;
+    // filter: blur(100px);
+    // scale: 0;
+    // border-radius: 100%;
+    animation: target linear;
+    animation-timeline: view();
+
+    // @keyframes target {
+    //     0% {
+    //         filter: blur(0);
+    //         border-radius: 0;
+    //         scale: 1;
+    //     }
+
+    //     55% {
+    //         filter: blur(0);
+    //         border-radius: 0;
+    //         scale: 1;
+    //     }
+    // }
+
+
+    .container {
+        @include flex-column;
+        height: 100%;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+
+        .title {
+            margin-block: 50px 100px;
+        }
+
+        p {
+            font-size: var(--step-1);
+        }
+    }
+}

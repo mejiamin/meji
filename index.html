@@ -11,6 +11,8 @@
 </head>
 
 <body>
+    <div class="scroll-watcher"></div>
+
     <div class="page-header">
         <nav class="main-nav">
             <div class="container">
@@ -20,13 +22,14 @@
 
         <section class="contacts">
             <div class="container">
-                <h2>Магомед-Амин Мишиев</h2>
+                <h1 сlass="title">Магомед-Амин Мишиев</h1>
                 <ul class="contacts-list">
-                    <li class="contact-item"><a href="#">тел: +7(964)070-24-55</a></li>
-                    <li class="contact-item"><a href="#">email: mokhmadmishiev@gmail.com</a></li>
-                    <li class="contact-item"><a href="#">GitHub: github.com/mejiamin</a></li>
-                    <li class="contact-item"><a href="#">telegram: @mejiamin</a></li>
+                    <li class="contact-item contact-phone"><a href="#">+7(964)070-24-55</a></li>
+                    <li class="contact-item contact-email"><a href="#">mokhmadmishiev@gmail.com</a></li>
+                    <li class="contact-item contact-github"><a href="#">github.com/mejiamin</a></li>
+                    <!-- <li class="contact-item contact-telegram"><img src="img/icon-telegram.svg" width="20" height="20" ><a href="#">telegram: @mejiamin</a></li> -->
                 </ul>
+                
             </div>
         </section>
     </div>
@@ -34,20 +37,24 @@
 
 
     <main>
-        <div class="container">
 
-            <article class="target">
-                <h1 class="title">Цель:</h1>
-                <p>Начинающий фронтенд-разработчик с опытом создания веб-приложений на JavaScriipt и React.</p>
-            </article>
+        <article class="target">
+            <div class="container">
 
-            <article class="skills">
+                <h1 class="title">Цель</h1>
+                <p>Начинающий фронтенд-разработчик с опытом создания веб-приложений на JavaScript и React.</p>
+
+            </div>
+        </article>
+
+        <article class="skills">
+            <div class="container">
 
                 <h1 class="title">Навыки</h1>
                 <ol class="skills-list">
 
                     <li class="skill-item">
-                        <h2>HTML/CSS:</h2>
+                        <h2>HTML/CSS</h2>
                         <ul>
                             <li>Знание основ HTML для разметки страниц.</li>
                             <li>Умение использовать CSS для стилизации и оформления.</li>
@@ -56,7 +63,7 @@
                     </li>
 
                     <li class="skill-item">
-                        <h2>JavaScript:</h2>
+                        <h2>JavaScript</h2>
                         <ul>
                             <li>Основы языка JavaScript, включая ES6+.</li>
                             <li>Работа с DOM (Document Object Model).</li>
@@ -64,23 +71,23 @@
                     </li>
 
                     <li class="skill-item">
-                        <h2>Инструменты разработки:</h2>
+                        <h2>Инструменты разработки</h2>
                         <ul>
                             <li>Умение работать с системами контроля версий (например, Git).</li>
                         </ul>
                     </li>
 
                     <li class="skill-item">
-                        <h2>UX/UI дизайн:</h2>
+                        <h2>UX/UI дизайн</h2>
                         <ul>
                             <li>Умение работать с дизайнерами и понимание принципов дизайна.</li>
                         </ul>
                     </li>
                 </ol>
 
-            </article>
+            </div>
+        </article>
 
-        </div>
     </main>
 
     <footer class="page-footer">
@@ -88,10 +95,10 @@
 
             <section class="projects">
 
-                <h1 class="title">Проекты:</h1>
+                <h1 class="title">Проекты</h1>
                 <ul class="projects-list">
-                    <li class="pjoject-item">
-                        <h2>Мой первый сайт (ссылка)</h2>
+                    <li class="project-item">
+                        <h2>Мой первый сайт (пока не готов)</h2>
                         <ul>
                             <li>Описание: Создал одностраничный сайт для кафе с использованием HTML и CSS</li>
                         </ul>
