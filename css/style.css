@@ -242,13 +242,13 @@ body {
   height: 45px;
 }
 .page-header .contacts .container .contacts-list .contact-phone a::before {
-  background: url("../../img/icon-phone.svg") no-repeat center left;
+  background: url("../img/icon-phone.svg") no-repeat center left;
 }
 .page-header .contacts .container .contacts-list .contact-email a::before {
-  background: url("../../img/icon-email.svg") no-repeat center;
+  background: url("../img/icon-email.svg") no-repeat center;
 }
 .page-header .contacts .container .contacts-list .contact-github a::before {
-  background: url("../../img/icon-github.svg") no-repeat;
+  background: url("../img/icon-github.svg") no-repeat;
   background-size: cover;
 }
 .page-header .contacts .container .image-header {
