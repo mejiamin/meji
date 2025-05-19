@@ -3,6 +3,25 @@
 .skills {
     height: 100vh;
     overflow: hidden;
+    filter: blur(100px);
+    scale: 0;
+    border-radius: 100%;
+    animation: skills linear;
+    animation-timeline: view();
+
+    @keyframes skills {
+        20% {
+            filter: blur(0);
+            border-radius: 0;
+            scale: 1;
+        }
+
+        55% {
+            filter: blur(0);
+            border-radius: 0;
+            scale: 1;
+        }
+    }
 
     .container {
         @include flex-column;

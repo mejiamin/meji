@@ -2,6 +2,26 @@
 
 .page-footer {
     height: 100vh;
+    overflow: hidden;
+    filter: blur(100px);
+    scale: 0;
+    border-radius: 100%;
+    animation: projects linear;
+    animation-timeline: view();
+
+    @keyframes projects {
+        20% {
+            filter: blur(0);
+            border-radius: 0;
+            scale: 1;
+        }
+
+        55% {
+            filter: blur(0);
+            border-radius: 0;
+            scale: 1;
+        }
+    }
 
     .container {
         @include flex-row;

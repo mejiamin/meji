@@ -106,6 +106,22 @@ body {
           animation: header linear;
   animation-timeline: scroll(y);
 }
+@-webkit-keyframes header {
+  20% {
+    scale: 0;
+    -webkit-filter: blur(100px);
+            filter: blur(100px);
+    border-radius: 100%;
+  }
+}
+@keyframes header {
+  20% {
+    scale: 0;
+    -webkit-filter: blur(100px);
+            filter: blur(100px);
+    border-radius: 100%;
+  }
+}
 .page-header .main-nav {
   position: relative;
   min-height: 42px;
@@ -242,13 +258,13 @@ body {
   height: 45px;
 }
 .page-header .contacts .container .contacts-list .contact-phone a::before {
-  background: url("../img/icon-phone.svg") no-repeat center left;
+  background: url("../../img/icon-phone.svg") no-repeat center left;
 }
 .page-header .contacts .container .contacts-list .contact-email a::before {
-  background: url("../img/icon-email.svg") no-repeat center;
+  background: url("../../img/icon-email.svg") no-repeat center;
 }
 .page-header .contacts .container .contacts-list .contact-github a::before {
-  background: url("../img/icon-github.svg") no-repeat;
+  background: url("../../img/icon-github.svg") no-repeat;
   background-size: cover;
 }
 .page-header .contacts .container .image-header {
@@ -261,9 +277,41 @@ body {
 .target {
   height: 100vh;
   overflow: hidden;
+  -webkit-filter: blur(100px);
+          filter: blur(100px);
+  scale: 0;
+  border-radius: 100%;
   -webkit-animation: target linear;
           animation: target linear;
   animation-timeline: view();
+}
+@-webkit-keyframes target {
+  20% {
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    border-radius: 0;
+    scale: 1;
+  }
+  55% {
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    border-radius: 0;
+    scale: 1;
+  }
+}
+@keyframes target {
+  20% {
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    border-radius: 0;
+    scale: 1;
+  }
+  55% {
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    border-radius: 0;
+    scale: 1;
+  }
 }
 .target .container {
   display: -webkit-box;
@@ -293,6 +341,41 @@ body {
 .skills {
   height: 100vh;
   overflow: hidden;
+  -webkit-filter: blur(100px);
+          filter: blur(100px);
+  scale: 0;
+  border-radius: 100%;
+  -webkit-animation: skills linear;
+          animation: skills linear;
+  animation-timeline: view();
+}
+@-webkit-keyframes skills {
+  20% {
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    border-radius: 0;
+    scale: 1;
+  }
+  55% {
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    border-radius: 0;
+    scale: 1;
+  }
+}
+@keyframes skills {
+  20% {
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    border-radius: 0;
+    scale: 1;
+  }
+  55% {
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    border-radius: 0;
+    scale: 1;
+  }
 }
 .skills .container {
   display: -webkit-box;
@@ -395,6 +478,42 @@ body {
 
 .page-footer {
   height: 100vh;
+  overflow: hidden;
+  -webkit-filter: blur(100px);
+          filter: blur(100px);
+  scale: 0;
+  border-radius: 100%;
+  -webkit-animation: projects linear;
+          animation: projects linear;
+  animation-timeline: view();
+}
+@-webkit-keyframes projects {
+  20% {
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    border-radius: 0;
+    scale: 1;
+  }
+  55% {
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    border-radius: 0;
+    scale: 1;
+  }
+}
+@keyframes projects {
+  20% {
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    border-radius: 0;
+    scale: 1;
+  }
+  55% {
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    border-radius: 0;
+    scale: 1;
+  }
 }
 .page-footer .container {
   display: -webkit-box;
