@@ -38,11 +38,14 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: var(--step-0);
   color: #fff;
+  height: 100%;
   margin: 0;
   padding: 0;
   background: -webkit-gradient(linear, left top, left bottom, from(#1d4350), to(#a43931));
   background: -o-linear-gradient(top, #1d4350, #a43931);
   background: linear-gradient(to bottom, #1d4350, #a43931);
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 .container {
@@ -258,13 +261,13 @@ body {
   height: 45px;
 }
 .page-header .contacts .container .contacts-list .contact-phone a::before {
-  background: url("../../img/icon-phone.svg") no-repeat center left;
+  background: url("../img/icon-phone.svg") no-repeat center left;
 }
 .page-header .contacts .container .contacts-list .contact-email a::before {
-  background: url("../../img/icon-email.svg") no-repeat center;
+  background: url("../img/icon-email.svg") no-repeat center;
 }
 .page-header .contacts .container .contacts-list .contact-github a::before {
-  background: url("../../img/icon-github.svg") no-repeat;
+  background: url("../img/icon-github.svg") no-repeat;
   background-size: cover;
 }
 .page-header .contacts .container .image-header {
