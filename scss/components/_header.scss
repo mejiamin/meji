@@ -4,16 +4,16 @@
     @include flex-column;
     position: relative;
     height: 100vh;
-    animation: header linear;
-    animation-timeline: scroll(y);
+    // animation: header linear;
+    // animation-timeline: scroll(y);
 
-    @keyframes header {
-        20% {
-            scale: 0;
-            filter: blur(100px);
-            border-radius: 100%;
-        }
-    }
+    // @keyframes header {
+    //     20% {
+    //         scale: 0;
+    //         filter: blur(100px);
+    //         border-radius: 100%;
+    //     }
+    // }
 
     .main-nav {
         position: relative;
