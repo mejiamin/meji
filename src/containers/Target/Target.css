@@ -1,0 +1,41 @@
+.target {
+    height: 100%;
+    margin-top: 100px;
+}
+
+.target .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background: var(--gradient-text-1);
+    border-radius: 20px;
+}
+
+.target h1 {
+    color: var(--color-text-4);
+}
+
+.target p {
+    margin-bottom: 100px;
+    font-size: 18px;
+    color: var(--color-text-4);
+}
+
+@media screen and (max-width: 900px) {
+    .target {
+        margin-top: 50px;
+    }
+
+    .target p {
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .target p {
+        margin-bottom: 35px;
+        font-size: 16px;
+    }
+}

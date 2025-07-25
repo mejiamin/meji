@@ -1,0 +1,152 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.skill-list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+}
+
+.skill-list>li {
+    flex: 1 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    list-style: none;
+}
+
+.skill-list>li:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.skill-list .skill {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.skill-list>li h2 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 26px;
+    font-weight: 350;
+}
+
+.skill-list>li span {
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--color-text);
+}
+
+.skills .skill-percents {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.skills .percents {
+    width: 100%;
+    height: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+.skills .percent {
+    height: 100%;
+    background: var(--gradient-text-1);
+    border-radius: 5px;
+}
+
+.skill-items {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.skill-items li {
+    width: 100%;
+    padding-block: 5px;
+    margin-left: 18px;
+    padding-left: 10px;
+    font-size: 17px;
+    color: var(--color-text);
+}
+
+@media screen and (max-width: 1300px) {
+    .skill-list .skill {
+        width: 360px;
+    }
+
+    .skill-items {
+        width: 360px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .skill-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill-list .skill {
+        width: 420px;
+    }
+
+    .skill-items {
+        width: 420px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .skill-list {
+        align-items: center;
+    }
+
+    .skill-list .skill {
+        width: 290px;
+    }
+
+    .skill-list>li:not(:last-child) {
+        margin-bottom: 25px;
+    }
+
+    .skill-list>li h2 {
+        font-size: 20px;
+    }
+
+    .skill-items {
+        width: 290px;
+    }
+
+    .skill-items li {
+        padding-left: 0px;
+        font-size: 16px;
+    }
+
+    .skills h2 {
+        letter-spacing: 0px;
+    }
+}

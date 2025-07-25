@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --color-body: #E6DADA;
+
+    --color-text: #274046;
+    --color-text-1: #3c5358;
+    --color-text-2: #7d8c90;
+    --color-text-3: #939fa2;
+    --color-text-4: #d3d8da;
+
+    --gradient-text: linear-gradient(to right, #232526, #414345);
+    --gradient-text-1: linear-gradient(to right, #274046, #7d8c90);
+}
