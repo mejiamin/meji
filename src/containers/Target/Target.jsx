@@ -6,7 +6,7 @@ const Target = () => {
     <div id='target' className='target section__margin'>
       <div className="container section__margin">
         <h1 className="title">Цель</h1>
-        <p>Начинающий фронтенд-разработчик с опытом создания веб-приложений на JavaScript и React</p>
+        <p>Начинающий фронтенд-разработчик с опытом создания веб-приложений на JavaScript, React.js и Next.js</p>
       </div>
     </div>
   )
