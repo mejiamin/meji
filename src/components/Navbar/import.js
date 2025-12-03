@@ -9,11 +9,11 @@ export const menus = [
         text: 'Навыки',
         name: 'skills',
     },
-    {
-        id: '2',
-        text: 'Цель',
-        name: 'target',
-    },
+    // {
+    //     id: '2',
+    //     text: 'Цель',
+    //     name: 'target',
+    // },
     {
         id: '4',
         text: 'Проекты',

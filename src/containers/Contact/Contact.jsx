@@ -8,7 +8,7 @@ const Contact = () => {
 
       <div className="container section__margin">
 
-        <h1 className='title gradient__text'>Магомед-Амин Мишиев</h1>
+        <h1 className='title gradient__text'>Магомед-Амин</h1>
 
         <ul>
           <li><a href="tel:+79640702455"><PiPhone size={25} /><p>+7 (964) 070-24-55 </p><span>Пожалуйста, звонки не принимаются. <br /> Свяжитесь через SMS или WhatsApp.</span></a></li>
